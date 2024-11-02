@@ -1,0 +1,9 @@
+::highlight(example-highlight-name) {
+  color: black;
+  background-color: #fed330;
+}
+
+div#example-root {
+  border: 1px solid lightgray;
+  padding: 4px 16px;
+}

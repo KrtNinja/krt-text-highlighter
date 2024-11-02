@@ -1,0 +1,29 @@
+{
+  "name": "text-highlighter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple text highlighter based on css.highlight",
+  "scripts": {
+    "build": "rm -rf && tsc"
+  },
+  "keywords": [
+    "text",
+    "highlighter",
+    "find",
+    "words"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Ivan Shabanov <kitonashi@yandex.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.3.2",
+    "typescript": "5.6.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.2"
+  }
+}

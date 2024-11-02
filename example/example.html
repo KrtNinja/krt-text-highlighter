@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Playground</title>
+    <link rel="stylesheet" href="example.css" />
+  </head>
+  <body>
+    <input id="example-search" type="text" autofocus>
+    <button id="example-search-button">Search</button>
+    <button id="example-reset-button">Clear highlight</button>
+    <p>I am outside the root element :)</p> 
+    <div id="example-root">
+      <h3>Attached root</h3>
+      <p>
+        <b data-nohls>Highlight:</b>
+        Any text can be highlighted</span>
+      </p>
+      <p>
+        <b data-nohls>Exclude:</b>
+        <span data-nohls>Any text can be excluded for highlighting</span>
+      </p>
+      <p>
+        <p>
+          <p>
+            <b data-nohls>Deeply nested:</b>
+            Any text can be highlighted on any nesting inside the root :)
+          </p>
+        </p>
+      </p>
+    </div>
+    <script src="./example.js" type="module"></script>
+  </body>
+</html>

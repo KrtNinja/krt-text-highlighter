@@ -4,7 +4,8 @@
   "type": "module",
   "description": "Simple text highlighter based on css.highlight",
   "scripts": {
-    "build": "rm -rf && tsc"
+    "build": "rm -rf dist && tsc",
+    "gh-pages-build": "rm -rf example/dist && tsc --outDir example/dist"
   },
   "keywords": [
     "text",

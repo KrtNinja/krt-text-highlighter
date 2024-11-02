@@ -1,4 +1,4 @@
-import { Highlighter } from '../dist/index.js'
+import { Highlighter } from './dist/index.js'
 
 const $input = document.getElementById('example-search')
 const $root = document.getElementById('example-root')

@@ -1,6 +1,6 @@
 {
   "name": "krt-text-highlighter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Simple text highlighter based on css.highlight",
   "scripts": {
@@ -18,6 +18,11 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KrtNinja/krt-text-highlighter"
+  },
+  "homepage": "https://krtninja.github.io/krt-text-highlighter",
   "author": "Ivan Shabanov <kitonashi@yandex.ru>",
   "license": "ISC",
   "devDependencies": {

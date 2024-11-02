@@ -1,5 +1,5 @@
 {
-  "name": "text-highlighter",
+  "name": "krt-text-highlighter",
   "version": "1.0.0",
   "type": "module",
   "description": "Simple text highlighter based on css.highlight",

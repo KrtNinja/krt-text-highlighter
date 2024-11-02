@@ -1,8 +1,7 @@
 # Text highlighter
 
-Example for implementation in your project, or use as a library (coming soon). \
-Analogue of the search in the browser on the page, \
-but you can specify areas (custom root element) for highlighting the text.\
+Example for implementation in your project, or use as a library. \
+Analogue of the search in the browser on the page, but you can specify areas (custom root element) for highlighting the text.\
 Also exclude paragraphs from highlighting inside the root.
 
 > Using [CSS highlight](https://developer.mozilla.org/en-US/docs/Web/CSS/::highlight)
@@ -25,7 +24,7 @@ Add style by specify the custom-highlight-name
 Create `Highlighter` by specify the custom-highlight-name
 
 ```javascript
-import { Highlighter } from 'path-to-highligher' // publish npm soon
+import { Highlighter } from 'krt-text-highlighter'
 
 // The root is any element inside which you want the highlight to work
 const $root = document.getElementById('example-root')
